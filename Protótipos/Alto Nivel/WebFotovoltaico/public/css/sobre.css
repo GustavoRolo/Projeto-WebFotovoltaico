@@ -1,0 +1,140 @@
+html,body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+hr{
+    margin-top: 5%;
+    color: black;
+    width: 70%;
+}
+a{
+   
+    text-decoration: none;
+}
+
+ul{
+    display: inline;
+    color: wheat;
+}
+
+li{
+    display: inline;
+    
+
+}
+#cabecalho{
+    padding: 15px;
+    width: 98%;
+    height: 19%;
+    background-color: black;
+    margin-bottom: 5%;
+    
+}
+
+#logomenu{
+    display: flex;
+    margin-top: 0,5%;
+    margin-left: 4%;
+    width: 9%;
+    display:inline;
+}
+
+#menu{
+    padding: 1%;
+    height: 1%;
+    display: inline;
+   margin-left: 25%;
+  
+}
+
+#textmenu{
+    display: inline;
+}
+#textmenu{
+    color: white;
+}
+
+#textmenu:hover{
+    color: rgba(255, 255, 255, 0.61);
+}
+
+section{
+    
+    margin: auto;
+    width: 80%;
+
+}
+#cont1{
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+#cont1tile{
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 15px;
+    font-size: 3rem;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#cont1text{
+    margin-left: 6%;
+    margin-top: 5%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 20px;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    color: white;
+
+}
+
+#titlefooter{
+    display: inline;
+    margin-top: 5%;
+    color:white;
+}
+
+#titlefooter:hover{
+    color: rgba(255, 255, 255, 0.37);
+}
+
+#logofooter{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 9%;
+    display:inline;
+}
+
+#navfooter{
+    margin: auto;
+    width: 35%;
+}
+#textfooter{
+    margin-top: 2%;
+    font-size: 12px;
+    margin-left: 43%;
+}
+
+#navfootertext{
+   color: white;
+}
+
+#navfootertext:hover{
+    color: rgba(255, 255, 255, 0.37);
+ }

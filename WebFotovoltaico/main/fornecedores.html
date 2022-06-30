@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Fotovoltaico</title>
+    <link rel="stylesheet" href="css/fornecedores.css">
+    <link rel="shortcut icon" href="assents/logo.png" type="image/x-icon">
+</head>
+<body>
+    
+  <header>
+    <div class="cabecalho">
+
+        <a href="/">  <img  class= "logo_menu" src="assents/logo.png" alt="logo"></a>
+        <a href="/"><h3 class="titulo_menu">Web-Fotovoltaico</h3></a>
+
+        <nav class = "menu">
+            
+            <ul class="nav_menu">
+               
+                <a href="/"><li class="text_menu">Página Inicial |</li></a>
+                <a href="/consumo"><li class="text_menu">Consumo |</li></a>
+                <a href="/fornecedores"><li class="text_menu">Fornecedores |</li></a>
+                <a href="/sobre"><li class="text_menu">Sobre</li></a>
+
+            </ul>
+
+        </nav>
+       
+    </div>
+</header>
+
+    <section>
+
+      <h1 class="title">Empresas mais Proximas</h1>
+        <div id="mapa">
+        <script>
+    
+          function inicializar() {
+            var coordenadas = {lat: -19.842639486188244, lng: -43.992474260787674};
+            var coordenadas1 = {lat: -19.868850246455246, lng: -43.99721560403422};
+            var coordenadas2 = {lat: -19.9204706028401, lng: -43.98713133266142};
+            var coordenadas3 = {lat: -19.92604586974735, lng: -43.941071574883715};
+            var coordenadas4 = {lat: -19.873079797992464, lng: -43.9256391635019};
+            var coordenadas5 = {lat: -19.82942908249585, lng: -43.96033295478372};
+            var coordenadas6 = {lat: -19.923163374703865, lng: -43.96890541146879};
+            var coordenadacentro = {lat: -19.90587737795767, lng: -43.96755321921415}
+    
+
+            
+    
+            var mapa = new google.maps.Map(document.getElementById('mapa'), {
+              zoom: 11,
+              center: coordenadacentro
+            });
+    
+            var marker = new google.maps.Marker({
+              position: coordenadas,
+              map: mapa,
+              title: 'Energy Solver, Av. Otacílio Negrão de Lima, 13720A - Pampulha, Belo Horizonte - MG, 31365-450'
+            });
+    
+            var marker = new google.maps.Marker({
+              position: coordenadas1,
+              map: mapa,
+              title: 'Solstar Energia Solar Fotovoltaica, Av. Santa Terezinha, 183 - LOJA 03 - Santa Terezinha, Belo Horizonte - MG, 31365-000'
+            });
+    
+            var marker = new google.maps.Marker({
+              position: coordenadas2,
+              map: mapa,
+              title: 'IMAX, Av. Ressaca, 141 - Sala 10 - Coração Eucarístico, Belo Horizonte - MG, 30535-540'
+            });
+    
+            var marker = new google.maps.Marker({
+              position: coordenadas3,
+              map: mapa,
+              title: 'SoluSolar, Rua dos Timbiras, 1940 - sala 704 - Funcionários, Belo Horizonte - MG, 30140-061'
+            });
+    
+            var marker = new google.maps.Marker({
+              position: coordenadas4,
+              map: mapa,
+              title: 'EcoMinas, R. Queluzita, 34 - Dom Joaquim, Belo Horizonte - MG, 31920-011'
+            });
+    
+            var marker = new google.maps.Marker({
+              position: coordenadas5,
+              map: mapa,
+              title: 'EraSolar, Av. Gen. Olímpio Mourão Filho, 80 - Planalto, Belo Horizonte - MG, 31710-690'
+            });
+    
+            var marker = new google.maps.Marker({
+              position: coordenadas6,
+              map: mapa,
+              title: 'Steiner Sun, R. Platina, 1265 - 30 - Prado, Belo Horizonte - MG, 30411-325'
+            });
+          }
+        </script>
+        </div>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH6BXcG8hTkRb5xgLO00I9x2q3_P99fIQ&callback=inicializar">
+        </script>
+    </section>
+
+    <footer>
+      <a href="/">  <img  class= "logo_footer" src="assents/logo.png" alt="logo"></a>
+
+      <a href="/"><h3 class="title_footer">Web-Fotovoltaico</h3></a>
+
+      <nav class = "nav_footer">
+          <ul>
+              <a href="/"><li class= "nav_footer_text">Página Inicial |</li></a>
+              <a href="/consumo"><li class="nav_footer_text">Consumo |</li></a>
+              <a href="/fornecedores"><li class="nav_footer_text">Fornecedores |</li></a>
+              <a href="/sobre"><li class="nav_footer_text">Sobre</li></a>
+          </ul>
+      </nav>
+
+      <p class="copyright">© Todos os direitos Reservados | 2022</p>
+  </footer>
+    
+</body>
+</html>
